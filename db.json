@@ -1,9 +1,92 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "id": "2",
+      "name": "Morty Smith",
+      "gender": "male",
+      "email": "ms11@test.com",
+      "image": "https://cdn.dribbble.com/users/5592443/screenshots/14279512/media/d268ea5b50f076c55b7e0b363188eb46.png?resize=400x300&vertical=center",
+      "description": "Mortimer Chauncey Morty Smith Sr. is one of the eponymous characters from the American animated television series Rick and Morty. Created by Justin Roiland and Dan Harmon, and voiced by the former for the first six seasons of the series followed by Harry Belden beginning with the seventh season."
+    },
+    {
+      "id": "acc1",
+      "name": "Spider Man",
+      "image": "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BpZGVybWFufGVufDB8fDB8fHww",
+      "email": "spidey99@test.com",
+      "gender": "male",
+      "description": "Spider-Man is a superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing Fantasy #15 (August 1962) in the Silver Age of Comic Books. He has been featured in comic books, television shows, films, video games, novels, and plays. Spider-Man's secret identity is Peter Benjamin Parker. "
+    },
+    {
+      "id": "651e",
+      "name": "Messi",
+      "image": "https://assets.architecturaldigest.in/photos/63806da6d2c4a1a597b273fd/1:1/w_2896,h_2896,c_limit/1442809583",
+      "email": "messi10@test.com",
+      "gender": "male",
+      "description": "Lionel Andrés is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record eight Ballon d'Or awards, a record six European Golden Shoes, and was named the world's best player for a record eight times by FIFA."
+    },
+    {
+      "id": "04f6",
+      "name": "Wolverine",
+      "image": "https://static.miraheze.org/greatcharacterswiki/5/5d/Wolverine.png",
+      "email": "wolvxmen99@test.com",
+      "gender": "male",
+      "description": "Wolverine is a superhero appearing in American comic books published by Marvel Comics, often in association with the X-Men. He is a mutant with animal-keen senses, enhanced physical capabilities, a powerful regenerative ability known as a healing factor, a skeleton reinforced with the unbreakable fictional metal adamantium, and three retractable claws in each hand. In addition to the X-Men, Wolverine has been depicted as a member of X-Force, Alpha Flight, the Fantastic Four."
+    },
+    {
+      "id": "edd0",
+      "name": "Peter",
+      "email": "peter3@gmail.com",
+      "image": "https://cdn.drawception.com/drawings/563867/AVY1a9CR5o.png",
+      "gender": "male",
+      "description": "Peter, also known as Peter the Apostle, Simon Peter, Simeon, Simon, or Cephas, was one of the Twelve Apostles of Jesus Christ and one of the first leaders of the early Christian Church. He appears repeatedly and prominently in all four New Testament gospels as well as the Acts of the Apostles."
+    },
+    {
+      "id": "7bd7",
+      "name": "Rick Sanchez",
+      "email": "rick2435@gmail.com",
+      "image": "https://m.media-amazon.com/images/I/61hLVV-0VWL.jpg",
+      "gender": "male",
+      "description": "Richard Daniel Sanchez is one of the two eponymous characters from the Adult Swim animated television series Rick and Morty and resulting multimedia franchise."
+    },
+    {
+      "id": "6c0b",
+      "name": "Summer",
+      "email": "summer2@gmail.com",
+      "image": "https://i.pinimg.com/originals/03/ec/e4/03ece45dc8a679c53837ae8c83f43b2f.jpg",
+      "gender": "female",
+      "description": "Summer Smith is one of the main characters of the American media franchise Rick and Morty. Created by Justin Roiland and Dan Harmon and voiced by Spencer Grammer in the original animated series and Akiha Matsui in the anime series, Summer is a conventional and often superficial 17-year-old teenager, who is obsessed with improving her social status among her peers."
+    },
+    {
+      "id": "5a78",
+      "name": "Beth",
+      "email": "beth356@gmail.com",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b935eb9f-d6fb-442d-8b65-1c19a38564c3/dcffjn6-764a7323-8b6b-450f-b74e-ea6b391e9e34.jpg/v1/fill/w_859,h_930,q_70,strp/beth_smith__blue_dress__by_dnmstarsi_dcffjn6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEwOCIsInBhdGgiOiJcL2ZcL2I5MzVlYjlmLWQ2ZmItNDQyZC04YjY1LTFjMTlhMzg1NjRjM1wvZGNmZmpuNi03NjRhNzMyMy04YjZiLTQ1MGYtYjc0ZS1lYTZiMzkxZTllMzQuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Ag4CR9RRVgoAukbt4mlbMdZ3U0loM74lZw131ngILAk",
+      "gender": "female",
+      "description": "Beth Smith is one of the main characters of the show Rick and Morty, she is the daughter of Rick Sanchez and Diane Sanchez, the wife of Jerry Smith, and the mother of Summer Smith and Morty Smith."
+    },
+    {
+      "id": "ce4b",
+      "name": "Arthricia",
+      "email": "arthricia56@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREgDbBpsWKbslWPExUuPYuMo83yiKEYKyoZg&s",
+      "gender": "female",
+      "description": "Arthricia is a magdalian who lives on a distant planet that appeared in the episode Look Who's Purging Now. She is a gracious but devious little Amish girl, and is a cat-like humanoid.\n"
+    },
+    {
+      "id": "e37f",
+      "name": "Jerry",
+      "email": "jerry83@gmail.com",
+      "image": "https://i.pinimg.com/originals/a3/20/68/a320689df92028da64265c33dc469268.jpg",
+      "gender": "male",
+      "description": "Jerry  is one of the main characters of the American animated television series Rick and Morty and resulting franchise. Created by Justin Roiland and Dan Harmon, and voiced by Chris Parnell, Jerry is depicted as a stay-at-home dad who finds contentment in his simple life."
+    },
+    {
+      "id": "ed7c",
+      "name": "Squanchy",
+      "email": "squanchy@gmail.com",
+      "image": "https://dlc.channel3.gg/img/avi/avi-squanchy-3295-20240213000059.webp",
+      "gender": "male",
+      "description": "Squanchy is a cat-like anthropomorphic creature that was invited to Rick and Summer's party in Ricksy Business. He is a recurring character in Rick and Morty, and very good friends with Rick, sharing his love for alcohol.\n"
+    }
+  ]
 }
